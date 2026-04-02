@@ -38,6 +38,23 @@ source venv/bin/activate  # activate venv
 ```
 Then open the notebook in VS Code and run.
 
+## Google Colab Notes
+
+> **Use Colab for training only, not editing.**
+> Make edits locally → push to GitHub → pull in Colab to run.
+> If you edit on Colab, save back to GitHub immediately before anyone else pushes.
+
+> **Colab does not auto-save your trained model.** The runtime is wiped on disconnect.
+> Save the model to Google Drive after training:
+> ```python
+> from google.colab import drive
+> drive.mount('/content/drive')
+> model.save_pretrained('/content/drive/MyDrive/MiDuRy-SentiBal/model')
+> ```
+> Note: RoBERTa is ~500MB — too large for GitHub, use Drive instead.
+
+---
+
 ## Repo Structure
 ```
 data/
