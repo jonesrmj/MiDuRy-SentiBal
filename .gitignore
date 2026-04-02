@@ -1,0 +1,5 @@
+venv/
+data/archive.zip
+__pycache__/
+*.pyc
+.DS_Store
