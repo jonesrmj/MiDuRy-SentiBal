@@ -3,3 +3,7 @@ data/archive.zip
 __pycache__/
 *.pyc
 .DS_Store
+output/
+tfidf_matrix.npz
+tfidf_vectorizer.pkl
+deberta_results/

@@ -2,3 +2,14 @@ numpy
 pandas
 jupyter
 nltk
+scikit-learn
+scipy
+vaderSentiment
+textblob
+imbalanced-learn
+transformers>=4.44,<5
+datasets
+accelerate
+torch
+joblib
+matplotlib
